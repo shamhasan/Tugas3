@@ -20,9 +20,7 @@ require 'includes/auth.php';
                 foreach ($_SESSION['pendidikan'] as $pend) {
                     echo "<li>" . htmlspecialchars($pend) . "</li>";
                 }
-            } else {
-                echo "<li>-</li>"; // Jika kosong, tampilkan tanda "-"
-            }
+            };
             ?>
         </ul>
 
